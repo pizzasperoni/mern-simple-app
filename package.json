@@ -1,0 +1,21 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Just an example using the mern stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "author": "pizzasperoni",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "dependencies": {
+    "concurrently": "^3.6.0",
+    "mongoose": "^5.2.1",
+    "body-parser": "^1.18.3"
+  }
+}
